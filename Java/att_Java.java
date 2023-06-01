@@ -18,7 +18,7 @@ public class att_Java {
         queue.add(toys2);
         queue.add(toys3);
 
-        try (FileWriter writer = new FileWriter("Java/randomtoys.txt")) {
+        try (FileWriter writer = new FileWriter("Java/all_toys.txt")) {
 
             for (int i = 0; i < 10; i++) {
                 PriorityQueue<toys> randomQueue = new PriorityQueue<>(queue);
